@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Character Biometric Data</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mb-4">Star Wars Character Biometric Data</h1>
+
+      <div class="form-group">
+        <label for="characterSelect">Choose a character:</label>
+        <select id="characterSelect" class="form-control">
+          <!-- Options will be populated dynamically -->
+        </select>
+      </div>
+
+      <button class="btn btn-primary mb-3" onclick="getCharacterData()">
+        Get Biometric Data
+      </button>
+
+      <textarea
+        id="characterData"
+        class="form-control"
+        rows="10"
+        readonly
+      ></textarea>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

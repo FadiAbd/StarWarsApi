@@ -1,0 +1,32 @@
+/* Custom CSS styles */
+
+/* Container styles */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Page title styles */
+h1 {
+  color: #007bff;
+}
+
+/* Form element styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn-primary {
+  width: 100%;
+}
+
+/* Textarea styles */
+textarea {
+  resize: none;
+}
